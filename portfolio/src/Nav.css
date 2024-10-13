@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  height: min(10vh, 250px);
+  width: 80vw;
+  margin: auto auto;
+  padding-top: 50px;
+  display: flex; 
+  flex-direction: row;
+  align-items: stretch;
+  border-bottom: 2px solid gray;
+  transition: 500ms 5ms;
+}
+
+
+.container:hover {
+  transition: 500ms 5ms;
+}
+
+.nav-logo {
+  display: inline-block;
+  margin: auto auto auto 100px;
+  color: gray;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.nav-cont {
+  display: inline;
+  margin: auto 100px auto auto;
+  list-style-type: none;
+  width: fit-contentgray;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 15px;
+}
+
+.nav-link-internal {
+  transition: 250ms 5ms;
+  color: gray;
+}
+
+
+.nav-link-internal:hover {
+  color: lightgray;
+  transition: 250ms 5ms;
+}
