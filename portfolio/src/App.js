@@ -5,10 +5,11 @@ import Headpanel from './Headpanel';
 import Images from './Images';
 
 function App() {
+  const colors = ['red', 'green', 'blue', 'red', 'green', 'blue', 'red', 'green', 'blue', 'red', 'green', 'blue', 'red', 'green', 'blue'];
   return (
     <>
-    <Nav/>
-    <Images/>
+    <Nav />
+    <Images colormap={colors}/>
     </>
   );
 }

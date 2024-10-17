@@ -1,11 +1,15 @@
 import { usestate } from 'react';
+import './Images.css';
 
 function Images(props){
-  const colormap = ['red', 'blue', 'green'];
+  const colormap = props.colormap;
+  const colors = colormap.map((color) => 
+      <div style={{backgroundColor: `${color}`, width: 'min(300px, 30vh)', height: 'min(240px, 24vh)', margin: '25px'}}>{color}</div>
+  );
 
   return (
-    <div>
-    {colormap.map((item, index) => (<div style={{background: `${item}`, height: '20px', width: '20px'}}>asdf</div>))}
+    <div className='image-container'>
+    {colors}
     </div>
   )
 }
