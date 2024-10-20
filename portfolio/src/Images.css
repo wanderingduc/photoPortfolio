@@ -2,9 +2,5 @@
   margin: auto;
   width: 80vw;
   height: fit-content;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  display: grid;
 }
