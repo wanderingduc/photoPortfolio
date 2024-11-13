@@ -1,0 +1,14 @@
+.start-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 6rem;
+  margin-top: 30vh;
+  color: rgba(0, 0, 0, 0.75);
+}
